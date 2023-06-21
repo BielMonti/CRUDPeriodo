@@ -58,7 +58,14 @@ function ModalPeriodoEditar({ cadastro, posicao, handleUpdate }) {
         setDesafios(copiaDesafios);
     };
 
+    const resetarCampos = () => {
+        setCurso(cadastro.curso);
+        setPeriodo(cadastro.periodo);
+        setDesafios(cadastro.desafios);
+    };
+
     const mudarVisibilidade = () => {
+        if (modalVisivel) resetarCampos();
         setModalVisivel((show) => !show);
     };
 
