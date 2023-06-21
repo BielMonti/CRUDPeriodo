@@ -1,0 +1,25 @@
+.divTabelaScroll {
+    flex: 1;
+    overflow: auto;
+    width: 90%;
+}
+
+.divTabela {
+    width: 100%;
+    border-radius: 1em;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    overflow-x: auto;
+    background-color: #fff;
+}
+
+.tabelaCadastro {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.editarCadastroItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
